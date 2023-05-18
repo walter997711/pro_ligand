@@ -334,8 +334,7 @@ REMARK 800 SITE_IDENTIFIER: AC2
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE PO4 A 166                 
 REMARK 800 SITE_IDENTIFIER: AC3                                                 
-REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
-REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE JZ4 A 167                 
+REMARK 800 EVIDENCE_CODE: SOFTWARE                                                   
 REMARK 900                                                                      
 REMARK 900 RELATED ENTRIES                                                      
 REMARK 900 RELATED ID: 1LGU   RELATED DB: PDB                                   
@@ -370,14 +369,11 @@ SEQRES  11 A  164  VAL ASN LEU ALA LYS SER ARG TRP TYR ASN GLN THR PRO
 SEQRES  12 A  164  ASP ARG ALA LYS ARG VAL ILE THR THR PHE ARG THR GLY          
 SEQRES  13 A  164  THR TRP ASP ALA TYR LYS ASN LEU                              
 HET    PO4  A 165       5                                                       
-HET    PO4  A 166       5                                                       
-HET    JZ4  A 167      10                                                       
+HET    PO4  A 166       5                                                                              
 HET    BME  A 168       4                                                       
-HETNAM     PO4 PHOSPHATE ION                                                    
-HETNAM     JZ4 2-PROPYLPHENOL                                                   
+HETNAM     PO4 PHOSPHATE ION                                                                                     
 HETNAM     BME BETA-MERCAPTOETHANOL                                             
-FORMUL   2  PO4    2(O4 P 3-)                                                   
-FORMUL   4  JZ4    C9 H12 O                                                     
+FORMUL   2  PO4    2(O4 P 3-)                                                                                     
 FORMUL   5  BME    C2 H6 O S                                                    
 HELIX    1   1 ASN A    2  GLY A   12  1                                  11    
 HELIX    2   2 ASP A   38  GLY A   51  1                                  14    
@@ -1770,15 +1766,5 @@ ATOM   1362  CG  ASN A 163       8.264  -6.773  -3.876  0.50 24.52           C
 ATOM   1363  OD1 ASN A 163       7.180  -6.439  -4.355  0.50 26.98           O  
 ATOM   1364  ND2 ASN A 163       9.430  -6.410  -4.423  0.50 24.01           N  
 TER    1365      ASN A 163                                                      
-HETATM 1376  C4  JZ4 A 167      24.294 -24.124  -0.071  1.00 16.39           C  
-HETATM 1377  C7  JZ4 A 167      21.553 -27.214  -4.112  1.00 16.92           C  
-HETATM 1378  C8  JZ4 A 167      22.068 -26.747  -5.331  1.00 14.84           C  
-HETATM 1379  C9  JZ4 A 167      22.671 -25.512  -5.448  1.00 15.93           C  
-HETATM 1380  C10 JZ4 A 167      22.769 -24.730  -4.295  1.00 15.43           C  
-HETATM 1381  C11 JZ4 A 167      21.693 -26.459  -2.954  1.00 16.72           C  
-HETATM 1382  C12 JZ4 A 167      22.294 -25.187  -3.075  1.00 14.13           C  
-HETATM 1383  C13 JZ4 A 167      22.463 -24.414  -1.808  1.00 15.94           C  
-HETATM 1384  C14 JZ4 A 167      23.925 -24.704  -1.394  1.00 15.28           C  
-HETATM 1385  OAB JZ4 A 167      23.412 -23.536  -4.342  1.00 13.88           O  
 MASTER      323    0    4   10    3    0    7    6 1608    1   24   13          
 END                                                                             
